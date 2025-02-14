@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.12">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3915" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4155" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -2328,6 +2328,24 @@
         </mxCell>
         <mxCell id="1T0dUiYLCHS9hBQFqfqJ-599" value="被保人的incident list是可以复用的，然后再生成claimId的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-995" y="1940" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-605" value="&lt;p style=&quot;text-align:left&quot; align=&quot;left&quot; class=&quot;MsoHeader&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; color: red;&quot; lang=&quot;EN-US&quot;&gt;registration&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; font-family: Wingdings; color: red;&quot; lang=&quot;EN-US&quot;&gt;à&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; color: red;&quot; lang=&quot;EN-US&quot;&gt;acceptance&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; font-family: Wingdings; color: red;&quot; lang=&quot;EN-US&quot;&gt;à&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; color: red;&quot; lang=&quot;EN-US&quot;&gt;evaluation&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; font-family: Wingdings; color: red;&quot; lang=&quot;EN-US&quot;&gt;à&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size: 15pt; color: red;&quot; lang=&quot;EN-US&quot;&gt;approve&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1350" y="8570" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-606" value="刚申请时是claimApplication是无状态的&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1352.5" y="8650" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-607" value="被claimManager认领，编程registration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1250" y="8690" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-608" value="然后匹配到保单，状态变为acceptance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1160" y="8730" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-609" value="这个时候可以calculate计算理赔金了，就成了evaluation了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="8767.5" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1T0dUiYLCHS9hBQFqfqJ-610" value="最后审批这条claim，是最后状态变成&lt;span style=&quot;color: rgb(84, 99, 111); font-family: &amp;quot;PingFang SC, Microsoft YaHei, Arial, sans-serif&amp;quot;; font-size: 14px; text-align: left; text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;approve&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1060" y="8810" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
