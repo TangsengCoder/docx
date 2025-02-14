@@ -2412,6 +2412,9 @@
         <mxCell id="1T0dUiYLCHS9hBQFqfqJ-627" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-980" y="9650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="K0Ahm2mC04J8cEfQDCfJ-0" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1085" y="10158" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
